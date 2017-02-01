@@ -5,44 +5,44 @@ body {
     font-size: 18px;
 }
 
-.box {
-    margin: 0px 0px 15px 0px;
-    background: #ebebeb;
-    padding-bottom: 25px;
-    padding-top: 25px;
+#master-box {
+    margin: 0 auto;
+    text-align: center;
     width: 960px;
+}
+
+.box {
+    background: #ebebeb;
     color: gray;
+    margin: 20px auto;
 }
 
 .inside-box {
     background: #ebebeb;
-    
 }
 
 #header {
-
+    padding-bottom: 25px;
+    padding-top: 25px;
 }
 
 #nav {
-
+    padding-bottom: 25px;
+    padding-top: 25px;
 }
 
 #section {
-    
     float: left;
     width: 445px;
-    height: 215px;
     padding: 25px;
+    height: 215px;
     background: #ebebeb;
-    display: inline-block;
-    vertical-align: middle;
 }
 
 #article {
     margin-top: 10px;
     background: #777;
-    width: auto;
-    padding: 15px 15px 25px 15px;
+    padding: 10px 10px 20px 10px;
     color: white;
 }
 
@@ -50,23 +50,27 @@ body {
     font-weight: bold;
     color: gray;
     margin-top: 15px;
-    padding: 15px;
+    padding: 10px;
     font-size: 22px;
 }
 
 #p-tag {
     margin-top: 15px;
     color: gray;
-    margin-top: 15px;
-    padding: 15px;
+    padding: 10px;
 }
 #aside {
     float: left;
     width: 450px;
+    padding-top: 15px;
     margin-left: 15px;
-    height: 215px;
+    height: 250px;
+    
 }
 
 #footer {
     clear: both;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    
 }
